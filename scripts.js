@@ -2,7 +2,12 @@ const container = document.querySelector(".container");
 const button = document.querySelector(".reset");
 
 function changeColor(item){
-    item.style.backgroundColor = "black";
+
+    let r = Math.random() * 255;
+    let g = Math.random() * 255;
+    let b = Math.random() * 255;
+
+    item.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
 }
 
 function resetGrid(){
