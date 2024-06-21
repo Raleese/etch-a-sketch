@@ -16,7 +16,7 @@ body {
 }
 
 .box {
-    height: 46px;
-    width: 46px;
-    border: 2px solid black;
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
 }
