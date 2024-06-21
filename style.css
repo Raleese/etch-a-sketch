@@ -5,6 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 50px;
+    background-color: bisque;
 }
 
 .container {
@@ -13,10 +14,19 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .box {
     height: 48px;
     width: 48px;
     border: 1px solid black;
+}
+
+.reset {
+    border: 3px solid black;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
 }

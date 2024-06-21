@@ -7,6 +7,12 @@ function changeColor(item){
 
 function resetGrid(){
     let size = prompt("Enter a new grid");
+
+    if (size > 100){
+        size = 16;
+        alert("Grid size cannot be bigger than 100x100!");
+    }
+
     document.querySelectorAll(".box").forEach(e => e.remove());
 
     for (let i = 0; i < size*size; i++){
